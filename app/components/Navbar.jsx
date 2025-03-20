@@ -6,7 +6,7 @@ export default function Navbar() {
     flex items-center gap-5 
     my-10 mx-auto 
     max-w-5xl;">
-      <h1 className="text-[var(--primary)]">HelpDesk</h1>
+      <h1 className=" text-xl text-[var(--primary)]">HelpDesk</h1>
       <Link href = '/' className="hover:text-black">Dashboard</Link>
       <Link href = '/tickets' className="hover:text-black">Tickets</Link>
     </nav>
